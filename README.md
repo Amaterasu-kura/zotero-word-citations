@@ -2,6 +2,13 @@
 
 > English version: [README.en.md](README.en.md)
 
+> **一句话：把参考文献从「手打的死编号」变成「Zotero 的活引用」。**
+
+手打的 `[1,2]`，删掉一段就得把后面几十个编号重排一遍；投稿前被要求换一种引用格式，更是逐条手改的噩梦。
+本 skill 只要读一遍你的 Word 稿子，就能把正文每个 `[1,2]` 换成 Zotero 的活引用域、把文末那份死参考文献表换成 Zotero 自动生成的活列表。
+此后在 Word 里点一次 **Zotero → Refresh**，编号全自动重排；换引用样式，一次 **Document Preferences** 点击搞定。
+原稿绝不改动，结果另存为新文档。
+
 > Turn a Word manuscript whose citations are typed plain text into one with **live, updatable Zotero citation fields**, and regenerate its reference list from Zotero.
 
 把一个「正文引用是手打纯文本、文末参考文献表是死编号」的 Word 稿子，转换成引用由 **Zotero 管理**的文档：

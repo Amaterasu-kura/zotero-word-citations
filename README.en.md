@@ -2,6 +2,13 @@
 
 > 中文版: [README.md](README.md)
 
+> **In one line: turn a manuscript's citations from hand-typed dead numbers into live Zotero fields.**
+
+Retype one paragraph and every `[1,2]` after it has to be renumbered by hand; when a journal asks for a different citation style, every entry gets retyped too.
+This skill reads your Word manuscript once and rewrites each `[1,2]` into a live Zotero citation field, and the whole reference list into a Zotero-generated live bibliography.
+From then on, one **Zotero → Refresh** renumbers everything automatically, and switching style is a single **Document Preferences** click.
+The original file is never touched — the result is written as a new document.
+
 Turn a Word manuscript whose citations are typed plain text into one with **live, updatable Zotero citation fields**, and regenerate its reference list from Zotero.
 
 Concretely: every in-text `[1,2]` becomes a Zotero `ZOTERO_ITEM` field, the reference list at the end becomes a `ZOTERO_BIBL` field, and the citation style is stored in the document's `ZOTERO_PREF_*` preferences. After the conversion, one click on **Zotero → Refresh** in Word renumbers every citation, and switching style is a single **Document Preferences** dialog — two things a plain-text reference list can never do.
