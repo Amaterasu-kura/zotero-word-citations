@@ -1,5 +1,7 @@
 # zotero-word-citations
 
+> English version: [README.en.md](README.en.md)
+
 > Turn a Word manuscript whose citations are typed plain text into one with **live, updatable Zotero citation fields**, and regenerate its reference list from Zotero.
 
 把一个「正文引用是手打纯文本、文末参考文献表是死编号」的 Word 稿子，转换成引用由 **Zotero 管理**的文档：
