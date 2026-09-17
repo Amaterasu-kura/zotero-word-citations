@@ -1,0 +1,14 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 运行产物 (含用户稿件, 不应入库) ----
+work/
+*_v2.docx
+~$*.docx
+
+# ---- 系统 ----
+.DS_Store
+Thumbs.db

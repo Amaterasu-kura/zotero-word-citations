@@ -1,0 +1,19 @@
+{
+  "skill_name": "zotero-word-citations",
+  "evals": [
+    {
+      "id": 0,
+      "name": "core-conversion-styled",
+      "prompt": "帮我处理一下 F:\\papers\\论文_正文_v3.docx。这篇稿子的引用全是手打的纯文本，中间调整过几次顺序，编号已经乱套了而且没法自动更新。我想改成用 Zotero 管，引用样式用 elsevier-harvard。原来的文件千万别覆盖。",
+      "expected_output": "A new .docx with 48 live ZOTERO_ITEM fields and 1 ZOTERO_BIBL field, referencing Zotero items, style preference set to elsevier-harvard, and verification run. The original file untouched.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "style-not-specified",
+      "prompt": "我这个稿子 F:\\papers\\论文_正文_v3.docx 的参考文献现在是一堆纯文本，期刊那边要求用 Zotero 生成。你帮我弄一下吧",
+      "expected_output": "The skill should ask which citation style to use before writing document preferences, because the style changes how every citation renders and cannot be guessed. If it proceeds without a style, that is a miss.",
+      "files": []
+    }
+  ]
+}
